@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Privacy Policy — video-studio uploader</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<main>
+<header>
+<h1>Privacy Policy</h1>
+<p class="sub">video-studio uploader · Last updated 14 October 2026</p>
+<nav><a href="./">Home</a><a href="privacy.html">Privacy Policy</a><a href="terms.html">Terms of Use</a></nav>
+</header>
+
+<p><strong>video-studio uploader</strong> is a private, single-user command-line tool. Its only purpose is to let the channel owner upload videos they produced themselves to their own YouTube channel, set thumbnails, and add those videos to playlists on that channel, using YouTube API Services.</p>
+
+<h2>Information accessed</h2>
+<p>When the channel owner authorizes the tool through Google OAuth, it receives an access token and a refresh token for the owner's own Google account, with the scopes <code>youtube.upload</code> and <code>youtube</code>. The tool uses them only to:</p>
+<ul>
+<li>upload videos and set their titles, descriptions, tags and thumbnails;</li>
+<li>create playlists on the owner's channel and add the uploaded videos to them;</li>
+<li>read the owner's channel name to confirm which channel was authorized.</li>
+</ul>
+<p>The tool does not read comments, subscribers, analytics, or any data belonging to other users.</p>
+
+<h2>Storage</h2>
+<p>OAuth tokens are stored only on the owner's own computer, in a file readable only by that user. They are never sent anywhere except Google's own servers. The tool keeps a local log of uploaded video IDs so it does not upload the same episode twice.</p>
+
+<h2>Sharing</h2>
+<p>The tool does not collect, sell or share any personal information, YouTube data or Google user data with any third party. It has no other users, no analytics, no cookies and no advertising. This website itself sets no cookies and collects no data.</p>
+
+<h2>Revoking access</h2>
+<p>Access can be revoked at any time on the <a href="https://myaccount.google.com/permissions">Google security settings page</a>. Deleting the local token file also stops the tool from accessing the account.</p>
+
+<h2>Google and YouTube policies</h2>
+<p>This tool uses YouTube API Services. Use of YouTube is subject to the <a href="https://www.youtube.com/t/terms">YouTube Terms of Service</a>, and Google's handling of data is described in the <a href="https://policies.google.com/privacy">Google Privacy Policy</a>.</p>
+
+<h2>Changes and contact</h2>
+<p>Any change to this policy will be posted on this page with a new date. Questions: <a href="https://github.com/seanmeng2022">github.com/seanmeng2022</a>.</p>
+
+<footer><a href="./">video-studio uploader</a></footer>
+</main>
+</body>
+</html>
